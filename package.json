@@ -2,10 +2,12 @@
 	"name": "stock_price_checker",
 	"version": "0.0.1",
 	"description": "InfoSec project for freeCodeCamp",
+	"type": "module",
 	"scripts": {
 		"start": "node server.js"
 	},
 	"dependencies": {
+		"axios": "^0.21.4",
 		"body-parser": "^1.15.2",
 		"chai": "^4.2.0",
 		"chai-http": "^4.3.0",
@@ -14,8 +16,7 @@
 		"express": "^4.14.0",
 		"helmet": "^3.1.0",
 		"mocha": "^3.2.0",
-		"mongoose": "^6.0.5",
-		"node-fetch": "^3.0.0"
+		"mongoose": "^6.0.5"
 	},
 	"repository": {
 		"type": "git",
